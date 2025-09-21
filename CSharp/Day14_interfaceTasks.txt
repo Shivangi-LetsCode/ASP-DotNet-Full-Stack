@@ -1,0 +1,17 @@
+Define an interface IVehicle with methods Start() and Stop().
+Implement it in two classes: Car and Bike.
+Demonstrate calling both methods for each.
+
+Create an interface ICalculator with methods Add(int a, int b) and Multiply(int a, int b).
+Implement it in a BasicCalculator class.
+
+Write an interface IShape with method GetArea().
+Implement it in Circle and Rectangle classes.
+Take input from user and print the area.
+
+Create an interface IAccount with method Deposit(decimal amount).
+Implement it in two classes SavingsAccount and CurrentAccount.
+Show how polymorphism works using the interface reference.
+
+Write an interface IMovable with method Move().
+A Robot and a Human should implement this interface differently.
