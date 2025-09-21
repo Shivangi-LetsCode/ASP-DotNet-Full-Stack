@@ -1,0 +1,105 @@
+Q1. Basic Overloading
+
+Write a class Calculator with an overloaded method Add():
+
+Add(int a, int b) → returns the sum of two integers.
+
+Add(double a, double b) → returns the sum of two doubles.
+
+Add(int a, int b, int c) → returns the sum of three integers.
+
+Test all the methods in Main().
+
+
+
+Q2. Area Calculation
+
+Create a class Area with overloaded methods:
+
+FindArea(int side) → returns the area of a square.
+
+FindArea(int length, int breadth) → returns the area of a rectangle.
+
+FindArea(double radius) → returns the area of a circle.
+
+Call all versions from Main() and print results.
+
+
+
+Q3. String Concatenation
+
+Define a class Concatenator with overloaded Join() methods:
+
+Join(string s1, string s2) → joins two strings.
+
+Join(string s1, string s2, string s3) → joins three strings.
+
+Join(int a, int b) → joins two integers as strings.
+
+Example: Join(10, 20) → "1020"
+
+
+
+Q4. Student Details
+
+Create a class Student with overloaded methods PrintDetails():
+
+PrintDetails(string name) → prints student’s name.
+
+PrintDetails(string name, int age) → prints student’s name and age.
+
+PrintDetails(string name, int age, string city) → prints student’s name, age, and city.
+
+Test by calling all methods in Main().
+
+
+
+Q5. Method Overloading with Different Parameter Types
+
+Create a class Multiply with overloaded methods Product():
+
+Product(int a, int b) → returns multiplication of integers.
+
+Product(float a, float b) → returns multiplication of floats.
+
+Product(int a, double b) → returns multiplication of int and double.
+
+Call these methods with different combinations of inputs.
+
+
+
+Q6. Method Overloading with Different Order of Parameters
+
+Create a class Display with overloaded methods Show():
+
+Show(string name, int age) → prints "Name: <name>, Age: <age>"
+
+Show(int age, string name) → prints "Age: <age>, Name: <name>"
+
+Call both and check output difference.
+
+
+
+Q7. Overloading for Default Values
+
+Write a class Discount with overloaded methods GetDiscount():
+
+GetDiscount(int price) → returns 5% discount.
+
+GetDiscount(int price, int percentage) → returns given percentage discount.
+
+Example: GetDiscount(1000) → 50, GetDiscount(1000, 10) → 100
+
+
+
+Q8. Real-Life Example – Banking
+
+Create a class Bank with overloaded Deposit() methods:
+
+Deposit(int amount) → deposits cash.
+
+Deposit(string chequeNumber, int amount) → deposits by cheque.
+
+Deposit(string upiId, double amount) → deposits via UPI.
+
+Call all deposit methods in Main().

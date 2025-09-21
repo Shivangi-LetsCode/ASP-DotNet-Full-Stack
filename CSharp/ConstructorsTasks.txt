@@ -1,0 +1,36 @@
+1) Create a class Book with two properties: Title and Author. Use a constructor to initialize these properties and print the book details.
+
+2) Write a program where a class Student has a constructor that takes id and name as parameters. Create multiple objects and display their details.
+
+3) Create a class Circle with a constructor that initializes the radius. Add a method to calculate the area and print it.
+
+
+
+4)Write a class Car with a default constructor (no parameters) and a parameterized constructor. Demonstrate constructor overloading.
+
+5) Create a class Employee with properties Name, Salary, and Department.
+
+Use a constructor to initialize all three.
+
+Create another constructor that initializes only Name and Salary (default department = "HR").
+
+6) Write a program that demonstrates copy constructor in C#. Example: Copy details of one Person object to another.
+
+
+
+7) Create a class BankAccount that has a static constructor to print "Welcome to XYZ Bank" once when the first object is created.
+
+Demonstrate how constructor chaining works in C#:
+
+8) A class Laptop should have three constructors:
+
+One that sets only Brand.
+
+One that sets Brand and Model.
+
+One that sets Brand, Model, and Price.
+Use this() keyword for chaining.
+
+9) Write a program that creates a class Shape. Make Rectangle and Square inherit from Shape. Show how base class constructors are called from derived class constructors.
+
+10) Create a class Game where the constructor throws an exception if the player’s age is less than 12. Handle the exception gracefully.

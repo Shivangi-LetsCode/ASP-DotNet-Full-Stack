@@ -1,0 +1,76 @@
+1) Define a class Student with fields RollNo, Name, and Marks.
+
+Write a method to calculate the grade based on marks.
+
+Create objects for 5 students and display their grades.
+
+
+2) Write a class Rectangle with methods CalculateArea() and CalculatePerimeter().
+
+Create an object and calculate area & perimeter for given values.
+
+
+
+
+3) Create a class BankAccount with fields AccountNumber, HolderName, and Balance.
+
+Add methods: Deposit(amount), Withdraw(amount), and ShowBalance().
+
+Test with multiple transactions.
+
+
+4) Define a class Employee with fields Id, Name, BasicSalary.
+
+Add a method CalculateNetSalary() (HRA = 20%, DA = 10%, Tax = 5%).
+
+Create an array of employees and display their net salaries.
+
+
+5) Create a class Book with fields Title, Author, Price.
+
+Store details of 10 books in an array.
+
+Write a method to search for a book by title.
+
+
+
+
+6) Define a class Course with fields CourseId, CourseName, and Fees.
+
+Another class Student has RollNo, Name, and a reference to a Course object.
+
+Create multiple students and assign them courses. Display student + course details.
+
+
+
+7) Create a class Calculator with method overloading for:
+
+Add(int a, int b)
+
+Add(double a, double b)
+
+Add(int a, int b, int c)
+
+Demonstrate method overloading by calling each method.
+
+
+
+8) Create a class Library which has a list of Book objects.
+
+Implement methods:
+
+AddBook(Book b)
+
+RemoveBook(string title)
+
+DisplayBooks()
+
+Create a menu-driven program to test.
+
+
+
+9) Create a class Product with properties Id, Name, Price.
+
+Another class Order should contain a list of products.
+
+Implement methods to AddProduct, RemoveProduct, and GetTotalPrice().
