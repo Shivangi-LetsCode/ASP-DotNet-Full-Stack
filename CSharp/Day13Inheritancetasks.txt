@@ -1,0 +1,44 @@
+Student Report
+
+Create a base class Person with fields Name, Age.
+
+Create a derived class Student that adds RollNo and Marks.
+
+Write methods in both classes to display details.
+Create a student object and display all info (use base class method inside derived class).
+
+2. Multilevel Inheritance – Family Example
+
+GrandParent → method DisplayGrandParent().
+
+Parent (inherits GrandParent) → method DisplayParent().
+
+Child (inherits Parent) → method DisplayChild().
+Create an object of Child and call all three methods.
+
+3. Company Employees
+
+Base class Employee → fields Id, Name.
+
+Derived class Manager → field Department.
+
+Derived class Developer → field ProgrammingLanguage.
+Show how Manager and Developer both inherit base employee details.
+
+4. Shape Hierarchy (No Override)
+
+Base class Shape → method Draw().
+
+Derived class Circle → method AreaCircle().
+
+Derived class Rectangle → method AreaRectangle().
+Demonstrate calling both Draw() and their own methods separately.
+
+5. Vehicle Hierarchy
+
+Base class Vehicle → fields Brand, Model.
+
+Derived class Car → field FuelType.
+
+Derived class Bike → field EngineCC.
+Display details of both vehicles.

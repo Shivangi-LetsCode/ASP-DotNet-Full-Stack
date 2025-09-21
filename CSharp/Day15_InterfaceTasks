@@ -1,0 +1,74 @@
+Q1. Multiple Interfaces + Property
+
+Create two interfaces:
+
+ILogin with properties Username, Password and method Authenticate().
+
+IAuthorization with method HasPermission(string role).
+
+Then, implement both in a class UserAccount.
+Test it with multiple users (Admin, Guest, Manager).
+
+
+
+Q2. Interface Inheritance
+
+Create an interface IShape with property Area.
+Now inherit it into ICircle and IRectangle, adding required properties like Radius, Length, Breadth.
+Implement classes and calculate the area using interface inheritance.
+
+
+
+Q3. Default Interface Method
+
+Define an interface ILogger with a method Log(string msg) and a default method LogError(string error) that prefixes "Error: ".
+Implement FileLogger and ConsoleLogger.
+Test calling both overridden and default methods.
+
+
+
+Q4. Multiple Interfaces Conflict
+
+Create two interfaces:
+
+IPrinter with method Print()
+
+IScanner with method Print() (same signature but different meaning).
+
+Implement them both in a single class MultiFunctionMachine and resolve the method conflict explicitly.
+
+
+
+Q5. Interface + Property + Inheritance
+
+Define:
+
+IVehicle with property Speed and method Drive().
+
+ICar : IVehicle with extra property Fuel.
+
+IBike : IVehicle with extra property HelmetRequired.
+
+Implement both Car and Bike. Demonstrate polymorphism via IVehicle reference.
+
+
+
+Q6. Default Interface + Multiple Inheritance
+
+Create two interfaces:
+
+IPayment with default method Validate()
+
+IRefund with default method Validate() (different validation rules).
+
+A class OnlineTransaction implements both.
+Handle diamond problem conflict when calling Validate().
+
+
+
+Q7. Interface-based Dependency Injection
+
+Create IMessageSender with method Send(string msg).
+Have two implementations: EmailSender, SMSSender.
+In class NotificationService, accept an IMessageSender interface via constructor.
+Show runtime swapping of implementations without changing code.

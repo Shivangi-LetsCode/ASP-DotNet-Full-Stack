@@ -1,0 +1,97 @@
+Operators
+
+1) Write a C# program to swap two numbers without using a third variable.
+(Hint: Use arithmetic or bitwise operators)
+
+Given int a = 5, b = 10;
+
+2) Find the result of:
+
+a + b * 2
+
+(a + b) * 2
+
+b % a
+
+Print each result.
+
+3) Take an integer input from the user and check if it is even or odd using the % operator.
+
+4) Take three integers as input and find the largest number using only relational (>, <) and logical operators (&&, ||).
+
+5) Write a program to toggle the case of a character using a bitwise operator.
+(Hint: XOR with 32 works for alphabets)
+
+
+
+
+If-Else
+
+1) Write a program that takes a number from the user and prints:
+
+"Positive" if it’s greater than 0
+
+"Negative" if it’s less than 0
+
+"Zero" if it equals 0
+
+2) Take the marks of a student (0–100).
+
+If marks ≥ 50 → Print "Pass"
+
+Else → Print "Fail"
+
+3) Ask the user to enter their age.
+
+If age < 18 → Print "Not eligible to vote"
+
+Else → Print "Eligible to vote"
+
+4) Write a program to check if a year is a leap year using if-else.
+(Hint: A year is leap if divisible by 4 but not 100, or divisible by 400
+
+
+
+
+
+Else If (Ladder)
+
+1) Take marks of a student and assign Grades:
+
+Marks ≥ 90 → "A"
+
+Marks ≥ 75 → "B"
+
+Marks ≥ 60 → "C"
+
+Marks ≥ 40 → "D"
+
+Else → "Fail"
+
+2) A shop gives discounts:
+
+If bill ≥ 5000 → 20% discount
+
+If bill ≥ 2000 → 10% discount
+
+If bill ≥ 1000 → 5% discount
+
+Else → No discount
+Calculate and print final amount.
+
+3) Take an integer (1–7) and print the day of the week (1 → Monday, …, 7 → Sunday). Use else if.
+
+4) Write a program to take three angles of a triangle as input.
+
+If sum = 180 → "Valid Triangle"
+
+Else → "Invalid Triangle"
+
+5) Electricity bill calculation:
+
+For first 100 units → ₹5 per unit
+
+Next 100 units → ₹7 per unit
+
+Above 200 units → ₹10 per unit
+Take units consumed and calculate the bill.

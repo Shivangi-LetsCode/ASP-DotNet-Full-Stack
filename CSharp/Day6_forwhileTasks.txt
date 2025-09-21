@@ -1,0 +1,88 @@
+For Loop Questions in C#
+
+Write a program to print numbers from 1 to 20 using a for loop.
+
+Print all even numbers between 1 and 50.
+
+Print the multiplication table of a given number.
+
+Find the sum of numbers from 1 to 100.
+
+Calculate the factorial of a given number using a for loop.
+
+Reverse a string using a for loop.
+
+Print all prime numbers between 1 and 100.
+
+Count the number of vowels in a given string.
+
+
+
+While Loop Questions in C#
+
+Print numbers from 1 to 10 using a while loop.
+
+Print all odd numbers between 1 and 100.
+
+Keep asking the user to enter a number until they type 0.
+
+Find the sum of digits of a number (e.g., 123 → 6).
+
+Reverse a number using a while loop (e.g., 123 → 321).
+
+Count how many digits a number has.
+
+Keep taking input marks until the user enters -1, then print the average.
+
+Generate the Fibonacci sequence up to n terms.
+
+
+
+
+Nested Loop Questions in C#
+
+Print the following pattern:
+
+*
+**
+***
+****
+*****
+
+
+Print a multiplication table (from 1 to 10).
+
+1 x 1 = 1 … 1 x 10 = 10  
+2 x 1 = 2 … 2 x 10 = 20  
+…  
+
+
+Print a right-angled triangle of numbers:
+
+1
+12
+123
+1234
+
+
+Print a pyramid pattern:
+
+    *
+   ***
+  *****
+ *******
+
+
+Print an inverted triangle of stars.
+
+Print Floyd’s Triangle:
+
+1
+2 3
+4 5 6
+7 8 9 10
+
+
+Check all pairs in an array that sum to a target value (nested loop).
+
+Print all prime numbers between 1–100 using nested loops.

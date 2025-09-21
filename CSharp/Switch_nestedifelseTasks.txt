@@ -1,0 +1,51 @@
+Switch Statement Questions
+
+
+Create a calculator using switch that performs addition, subtraction, multiplication, and division.
+
+Take a character input and check if it is a vowel or consonant using switch.
+
+Create a menu-driven program (1. Area of Circle, 2. Area of Square, 3. Area of Rectangle).
+
+Take an integer (1–12) and print the month name and number of days.
+
+Write a program to grade students based on marks (A, B, C, D, F) using switch.
+
+Make a simple ATM menu (1. Withdraw, 2. Deposit, 3. Check Balance).
+
+Use switch to print whether a number is positive, negative, or zero.
+
+
+
+
+Nested If-Else Questions
+
+Write a program to check whether a number is positive, negative, or zero using nested if-else.
+
+Find the largest of three numbers using nested if-else.
+
+Check if a given year is a leap year.
+
+Write a program to determine whether a person is eligible to vote (age ≥ 18).
+
+Write a program to classify a student’s grade based on marks:
+
+>=90 → A
+
+>=75 → B
+
+>=50 → C
+
+<50 → Fail
+
+Check whether a character is uppercase, lowercase, digit, or special symbol.
+
+Write a program that takes two numbers and an operator (+, -, *, /) and performs the operation using nested if-else.
+
+A shop gives a discount:
+
+If purchase > 5000 → 20% discount
+
+Else if purchase > 2000 → 10% discount
+
+Else → no discount
